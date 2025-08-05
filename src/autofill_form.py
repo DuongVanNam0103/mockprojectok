@@ -57,7 +57,8 @@ def take_screenshot(page, prefix="form_submission"):
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     screenshot_path = f"screenshots/{prefix}_{timestamp}.png"
     page.screenshot(path=screenshot_path)
-    return screenshot_path
+    return
+    #return screenshot_path
 
 # Fill in personal info (name, email, mobile number)
 def fill_personal_info(page, fake):
