@@ -101,7 +101,7 @@ def pick_hobby(page):
 
 # Fill in address
 def fill_address(page, fake):
-    page.fill(ADDRESS_FIELD, fake.address())
+    page.fill(ADDRESS_FIELD)
 
 # Upload picture
 def upload_picture(page, image_path):
