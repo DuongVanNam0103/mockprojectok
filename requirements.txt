@@ -1,0 +1,4 @@
+playwright>=1.18
+faker==13.3.0
+pytest-playwright==0.4.0
+pytest==6.2.5
